@@ -1,0 +1,128 @@
+@charset "UTF-8"
+
+/*Zerando o CSS */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Variaveis para cores*/
+:root {
+    --Cor0: #FFB0C0;
+    --Cor1: #FF6381;
+    --Cor2: #CC5068;
+    --Cor3: #805860;
+    --Cor4: #803241;
+    
+
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+table {
+    border: solid 1px black;
+    text-align: justify;
+}
+
+table th {
+    background-color: #803241;
+    color: white;
+}
+
+table tbody tr:nth-child(even) td {
+    background-color: #ffdbe1;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0px;
+    background-color: aquamarine;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: var(--Cor4);
+    padding: 10px 20px 0px;
+}
+
+.header {
+    background-image: linear-gradient(#ff638252, #cc506952), url(images/background.jpg);
+    background-position:  center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    text-align: center;
+}
+
+.header2 {
+    background-image: linear-gradient(rgba(17, 17, 17, 0.514), rgba(21, 21, 21, 0.459)), url(images/background.jpg);
+    background-position:  center center;
+    background-size: cover;
+    background-position-y: 0px;
+    background-repeat: no-repeat;
+    min-height: 150px;
+    text-align: center;
+}
+
+.header > h1 {
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 4em;
+        margin: 0px;
+        padding: 0px;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    }
+
+.header > p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+   
+}
+
+.content h1 {
+        color: var(--Cor4);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2em;
+        margin: 0px;
+        padding: 0px;
+    }
+
+.content > p {
+    width: 400px;
+    text-indent: 40px;
+}
+
+.footer {
+    background-color: var(--Cor0);
+    min-height: 150px;
+}
