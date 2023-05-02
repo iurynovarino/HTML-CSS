@@ -3,7 +3,7 @@
 body {
     margin: 0px;
     box-sizing: border-box;
-    height: 5000px;
+    height: 2000px;
 }
 
 
@@ -33,4 +33,8 @@ nav a:hover {
     transition: .5;
     background-color: #efefef;
     color: #333;
+}
+
+main h1 {
+    margin: 0px;
 }
