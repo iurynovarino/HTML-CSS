@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --BkgBody: backgroundimage
+}
+
+body {
+    background-image: url('bkg1.jpg');
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    
+}
+
+h1 {
+    text-align: center;
+    color: white;
+
+}
+
+table {
+    width: 400px;
+    border-collapse: collapse;
+    margin-left: 470px;
+    margin-top: 20px;
+}
+
+tr.header {
+    background-color: green;
+    font-weight: bolder;
+    color: white;
+    text-align: center;
+}
+
+tr.normal {
+    background-color: white;
+    text-align: center;
+}
+td {
+    border: 1px solid black;
+    padding: 8px;
+}

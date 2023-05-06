@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* Zerando as margens e paddings*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --CorBkgContent: #58af9c;
+    --CorBkgLogin: white;
+}
+
+body {
+    background-color: #ecf0f1;
+    padding: 130px 300px;
+    }
+
+button {
+    border-radius: 10px;
+}
+
+section {
+    box-shadow: 4px -4px 8px -1px rgba(0,0,0,0.24);
+}
+
+section.content {
+    background-color: var(--CorBkgContent);
+    float: left;
+    width: 40%;
+    height: 400px;   
+}
+
+section.login {
+    background-color: var(--CorBkgLogin);
+    height: 400px;
+    width: 60%;
+    padding-left: 200px;
+}

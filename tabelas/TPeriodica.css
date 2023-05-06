@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+td {
+    border: .5px solid black;
+}
+
+tr > td#At001 {
+    margin-right: 100px;
+}
+
+.NMetais {
+    background-color: #b168ff;
+}
