@@ -5,14 +5,65 @@
     padding: 0px;
 }
 
-td {
-    border: .5px solid black;
+body {
+    width: 900px;
+    margin: 20px;
 }
 
-tr > td#At001 {
-    margin-right: 100px;
+table {
+    text-align: center;
+
+}
+
+td {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 5px;
+}
+
+.massa {
+    font-size: 10px;
+}
+
+.MetaisAlcalinos {
+    background-color: #fc3435;
+}
+
+.GasesNobres {
+    background-color: #309a66;
+    color: white;
+}
+
+.MetaisTransicao {
+    background-color: #f9e900;
+}
+
+.MetaisRepresentativos {
+    background-color: #2f82d1;
+}
+
+.SemiMetais {
+    background-color: #4cfdd8;
+}
+
+.MetaisAlcalinosTerrosos {
+    background-color: #fe7e01;
+}
+
+.Halogenios {
+    background-color: #643597;
+    color: red;
 }
 
 .NMetais {
     background-color: #b168ff;
+}
+
+.Lantanideos {
+    background-color: #66ce9b;
+}
+
+.actinideos {
+    background-color: #d14fa8;
 }
