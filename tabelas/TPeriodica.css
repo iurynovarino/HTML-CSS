@@ -6,8 +6,8 @@
 }
 
 body {
-    width: 900px;
-    margin: 20px;
+    width: 100%vw;
+    margin: 5px;
 }
 
 table {
@@ -16,14 +16,29 @@ table {
 }
 
 td {
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-radius: 5px;
     border-bottom-right-radius: 5px;
     padding: 5px;
+    width: 60px;
+    box-sizing: border-box;
+}
+
+td:hover {
+    border: 3px solid rgba(77, 24, 138, 0.856);
+    transform: translate(3px, -3px); /* desloca a imagem eixo X, eixo y */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.644);
+    transition: transform .3, border 1s; /* tempo de transição dos atributos TRANSFORM e BORDER  */
+    width: 100px;
+    height: 100px;
+    font-size: larger;
 }
 
 .massa {
     font-size: 10px;
+}
+
+.nome {
+    font-size: small;
 }
 
 .MetaisAlcalinos {

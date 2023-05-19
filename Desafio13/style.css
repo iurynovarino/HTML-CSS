@@ -54,7 +54,7 @@ section#redes-sociais img {
 }
 
 section#redes-sociais img:hover {
-    border: 2px solid rgba(255, 255, 255, 0.600);
+    border: 4px solid rgba(255, 255, 255, 0.600);
     transform: translate(-3px, 3px); /* desloca a imagem eixo X, eixo y */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.644);
     transition: transform .3, border 1s; /* tempo de transição dos atributos TRANSFORM e BORDER  */
