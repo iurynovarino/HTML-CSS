@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <title>Responsive Navbar</title>
 </head>
@@ -15,7 +14,7 @@
         <div class="navbar">
             <div class="logo"><a href="#">Iury Dev</a></div>
             <menu>
-                <ul>
+                <ul class="links">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Services</a></li>
@@ -24,11 +23,43 @@
             </menu>
             <a href="#" class="action_btn">Get Started</a>
             <div class="toggle_btn">
-                <i class="fa-regular fa-bars"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="dropdown_menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="action_btn">Get Started</a></li>
             </div>
 
         </div> 
     </header>
+
+    <main>
+        <section id="hero">
+            <h1>Welcome</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, quibusdam? Quia eligendi cupiditate dolorem explicabo id perferendis magni minima quod numquam consequatur animi vitae, corrupti, recusandae repudiandae. Error, sed esse!
+            </p>
+        </section>
+    </main>
+
+    <script>
+        const toggle_btn = document.querySelector('.toggle_btn')
+        const toggle_Icon = document.querySelector('.toggle_btn i')
+        const dropDownMenu = document.querySelector('.dropdown_menu')
+
+        toggle_Btn.onclick = function () {
+            dropDownMenu.classList.toggle('open')
+
+        toggle_BtnIcon.classList = isOpen
+            ? 'fa-solid fa-xmark'
+            : 'fa-solid fa-bars'
+        }
+
+    </script>
     
 </body>
 </html>
