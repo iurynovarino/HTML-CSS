@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* mobile first */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: black url(../imagens/ice-moutain.jpeg) no-repeat;
+    background-size: cover;
+}
+
+.container {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+
+    width: 50%;
+    height: 50vh;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    
+    border: 1px solid white;
+    border-radius: 50px;
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.247);
+
+    overflow: hidden;
+
+}
+
+form {
+    margin: 10vw;
+}
+input {
+    border: 0;
+    border-bottom: 1px solid white;
+    background: none;
+}
