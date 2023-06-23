@@ -1,0 +1,112 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@700&family=Montserrat:wght@500;700&display=swap');
+
+/*
+## Colors
+
+### Primary
+
+- Dark cyan: hsl(158, 36%, 37%)
+- Cream: hsl(30, 38%, 92%)
+
+### Neutral
+
+- Very dark blue: hsl(212, 21%, 14%)
+- Dark grayish blue: hsl(228, 12%, 48%)
+- White: hsl(0, 0%, 100%)
+
+- Family: [Montserrat](https://fonts.google.com/specimen/Montserrat)
+- Weights: 500, 700
+
+- Family: [Fraunces](https://fonts.google.com/specimen/Fraunces)
+- Weights: 700
+*/
+
+/* Mobile first */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body, html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+
+main{
+    position: relative;
+    width: 95%;
+    height: 95%;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1{
+    /*display: inline;*/
+    font-family: 'Fraunces', sans-serif;
+    margin-bottom: 0px;
+}
+
+h1#emphasis{
+    display: inline;
+    color: hsl(158, 36%, 37%);
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(158, 36%, 37%);
+    margin-bottom: 0px;
+}
+
+p#txt001{
+    margin-bottom: 5px;
+    letter-spacing: 0px;
+}
+
+.info p#txt002{
+    line-height: 5px;
+    margin-bottom: 5px;
+}
+
+s{
+    margin-left: 10px;
+    color: hsl(158, 36%, 37%);
+}
+
+figure img{
+    width: 100%;   
+}
+
+.info{
+    padding: 15px 25px;
+}
+
+button{
+    width: 85%;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    background: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 0px 25px;
+    width: 100%;
+    color: white;
+}
+
+
+

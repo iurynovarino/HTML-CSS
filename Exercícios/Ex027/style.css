@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    margin-bottom: 15px;
+}
+
+body, html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffff99;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    background: red;
+}
+
+.container{
+    width: 100%;
+    position: relative;
+    background: green;
+    line-height: 15px;
+}
+
+@media screen and(max-width: 375px){
+    main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 50%;
+        background: rgb(111, 0, 255);
+    }
+    
+    .container{
+        width: 100%;
+        position: relative;
+        top:30px
+        line-height: 15px;
+    }
+}
